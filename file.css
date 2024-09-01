@@ -1,0 +1,58 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: navy;
+}
+
+h3 {
+    color: rgb(203, 21, 124);
+}
+img:hover {
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5); /* Усиливаем тень */
+}
+.gallery {
+    text-align: center;
+}
+
+img {
+    width: 25%;
+    float: left;
+    margin: 10px;
+}
+
+@media (max-width: 768px) {
+    img {
+        width: 45%;
+    }
+}
+
+img {
+    width: 32%; /* Кожне зображення займає 32% ширини контейнера */
+    float: left;
+    margin: 10px;
+}
+
+.box {
+    background-color: lightblue;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .container {
+    width: 100%; /* Ширина контейнера */
+    margin: 0 auto; /* Центрируем контейнер */
+  }
+  
+  .image {
+    width: 400px; /* Ширина изображения */
+    height: 400 px; /* Высота изображения */
+    margin-right: 20px; /* Отступ справа от изображения */
+    float: left; /* Позиционируем изображение слева */
+  }
+  
+  .text {
+    clear: both; /* Убираем эффект плавания для текста */
+  }
